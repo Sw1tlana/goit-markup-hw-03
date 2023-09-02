@@ -227,10 +227,10 @@ a {
     display: flex;
     justify-content: space-between;
     padding-left: 0; 
+    gap: 24px;
 }
 
 .main-item-advantages {
-    gap: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -246,11 +246,11 @@ a {
     justify-content: space-between;
     padding-left: 0;
     margin-top: 72px;
+    gap: 24px;
 }
 
 .main-item-team {
     background-color: var(--color-light);
-    gap: 24px;
     width: calc((100% - 72px) / 4);
 }
 
