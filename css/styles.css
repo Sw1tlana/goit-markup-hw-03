@@ -43,7 +43,11 @@ a {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+}
+
+.main-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .tittle-main-section {
@@ -78,14 +82,12 @@ a {
 /* ---------Header--------- */
 
 .header {
-    border-bottom: 1px solid var(--color-border);    
+    border-bottom: 1px solid var(--color-border);  
 }
 
 .container-header {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-nav-menu {
@@ -94,6 +96,7 @@ a {
 }
 
 .logo {
+    display: inline-block;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -120,13 +123,16 @@ a {
     margin-right: 40px;
 }
 
-.item-contacts {
+.header-list-item:last-child {
     margin-right: 0;
 }
 
 .header-list-link {
     color: var(--color-navyblue);
     font-weight: 500;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding: 0 15px;
 }
 
 .header-list-link:hover,
@@ -204,11 +210,6 @@ a {
 
 /* Section hidden Our advantages */
 
-.main-section-advantages {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -233,7 +234,7 @@ a {
     width: calc((100% - 72px) / 4);
 }
 
-.item-advantages {
+.main-item-advantages:last-child {
     margin-right: 0;
 }
 
