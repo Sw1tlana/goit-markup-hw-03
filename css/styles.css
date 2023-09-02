@@ -230,7 +230,7 @@ a {
 }
 
 .main-item-advantages {
-    margin-right: 24px;
+    gap: 24px;
     width: calc((100% - 72px) / 4);
 }
 
