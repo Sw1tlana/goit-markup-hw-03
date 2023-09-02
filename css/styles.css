@@ -43,6 +43,7 @@ a {
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .main-section {
@@ -121,6 +122,8 @@ a {
 
 .header-list-item {
     margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-item:last-child {
@@ -130,9 +133,6 @@ a {
 .header-list-link {
     color: var(--color-navyblue);
     font-weight: 500;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding: 0 15px;
 }
 
 .header-list-link:hover,
@@ -234,10 +234,6 @@ a {
     width: calc((100% - 72px) / 4);
 }
 
-.main-item-advantages:last-child {
-    margin-right: 0;
-}
-
 
 /* Section-team */
 
@@ -258,6 +254,7 @@ a {
 }
 
 .main-item-team:first-child {
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
