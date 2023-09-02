@@ -122,8 +122,6 @@ a {
 
 .header-list-item {
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-list-item:last-child {
@@ -133,6 +131,8 @@ a {
 .header-list-link {
     color: var(--color-navyblue);
     font-weight: 500;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-link:hover,
@@ -244,19 +244,20 @@ a {
 .main-list-team {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
     padding-left: 0;
     margin-top: 72px;
 }
 
 .main-item-team {
     background-color: var(--color-light);
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
+
 .main-item-team:first-child {
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
+    background: var(--color-light);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
     0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
