@@ -96,8 +96,6 @@ a {
 
 .header {
     border-bottom: 1px solid var(--color-border);  
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .container-header {
@@ -111,6 +109,7 @@ a {
 }
 
 .logo {
+    display: inline-block;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -135,6 +134,8 @@ a {
     margin-right: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-item:last-child {
