@@ -24,8 +24,20 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -56,7 +68,7 @@ a {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-navyblue);
     margin-bottom: 72px;
@@ -67,7 +79,7 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
 
@@ -75,7 +87,7 @@ a {
     color: var(--color-slate);
     font-family: Roboto;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     margin-bottom: 0;
 }
 
@@ -84,6 +96,8 @@ a {
 
 .header {
     border-bottom: 1px solid var(--color-border);  
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .container-header {
@@ -102,7 +116,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
     margin-right: 76px;
@@ -116,12 +130,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    line-height: 1.5; 
-    letter-spacing: 0.32px;
 }
 
 .header-list-item {
     margin-right: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .header-list-item:last-child {
@@ -131,8 +145,6 @@ a {
 .header-list-link {
     color: var(--color-navyblue);
     font-weight: 500;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-list-link:hover,
@@ -180,9 +192,8 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: 1.07; 
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     color: var(--color-light);
-    margin-bottom: 0;
     max-width: 496px;
 }
 
@@ -194,7 +205,7 @@ a {
     color: var(--color-light);
     font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     background-color: var(--color-iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-top: 48px;
@@ -245,7 +256,6 @@ a {
     display: flex;
     justify-content: space-between;
     padding-left: 0;
-    margin-top: 72px;
     gap: 24px;
 }
 
@@ -264,7 +274,6 @@ a {
 }
 
 .images-team {
-    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -294,8 +303,7 @@ a {
 }
 
 .images-portfolio {
-    display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -328,9 +336,8 @@ a {
 
 .text-final-info {
     color: var(--color-cloud);
-    font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px; 
+    letter-spacing: 0.02em; 
     width: 28%;
 }
 
