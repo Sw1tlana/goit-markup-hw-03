@@ -237,7 +237,6 @@ a {
 .main-list-advantages {
     display: flex;
     justify-content: space-between;
-    padding-left: 0; 
     gap: 24px;
 }
 
@@ -255,7 +254,6 @@ a {
 .main-list-team {
     display: flex;
     justify-content: space-between;
-    padding-left: 0;
     gap: 24px;
 }
 
@@ -298,7 +296,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 0;
     gap: 48px 24px;
 }
 
