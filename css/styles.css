@@ -127,14 +127,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-item {
     margin-right: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-list-item:last-child {
