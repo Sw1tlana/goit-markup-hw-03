@@ -130,11 +130,10 @@ a {
 }
 
 .header-list-item {
+    display: flex;
     margin-right: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-list-item:last-child {
@@ -144,6 +143,8 @@ a {
 .header-list-link {
     color: var(--color-navyblue);
     font-weight: 500;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-link:hover,
@@ -155,6 +156,8 @@ a {
 .link-info {
     color: var(--color-slate);
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .link-info:hover,
