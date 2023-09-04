@@ -100,8 +100,6 @@ a {
 .container-header {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-nav-menu {
@@ -135,6 +133,8 @@ a {
     margin-right: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-item:last-child {
