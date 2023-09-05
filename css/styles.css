@@ -126,13 +126,12 @@ a {
 
 .header-list-item {
     display: flex;
-    margin-right: 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.header-list-item:last-child {
-    margin-right: 0;
+.header-list-item:not(:last-child) {
+    margin-right: 40px;
 }
 
 .header-list-link {
